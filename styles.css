@@ -1,0 +1,93 @@
+/* Resetear márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Fondo rosa suave */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #ff69b4;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Verdana', sans-serif;
+}
+
+.heart {
+    color: red;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Mensaje de pie de página */
+.footer-message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ff69b4;
+    margin-top: 20px;
+    font-family: 'Georgia', serif;
+}
+
+/* Estilo responsivo: se adapta mejor a móviles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
+
